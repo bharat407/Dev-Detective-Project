@@ -146,7 +146,7 @@ function enableDarkMode() {
   root.setProperty("--lm-text-alt", "white");
   root.setProperty("--lm-shadow-xl", "rgba(70,88,109,0.15)");
   modeText.innerText = "LIGHT";
-  modeIcon.src = "./Images/sun-icon.svg";
+  modeIcon.src = "./assets/sun-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
   darkMode = true;
   localStorage.setItem("dark-mode", true);
@@ -159,7 +159,7 @@ function enableLightMode() {
   root.setProperty("--lm-text-alt", "#2B3442");
   root.setProperty("--lm-shadow-xl", "rgba(70, 88, 109, 0.25)");
   modeText.innerText = "DARK";
-  modeIcon.src = "./Images/moon-icon.svg";
+  modeIcon.src = "./assets/moon-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(100%)");
   darkMode = false;
   localStorage.setItem("dark-mode", false);
