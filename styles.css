@@ -296,7 +296,7 @@ body {
   background-color: var(--lm-bg);
   font-size: 13px;
   color: var(--lm-text);
-  width: 100%; 
+  width: 100%;
   position: relative;
   height: 100vh;
 }
@@ -543,7 +543,8 @@ body {
     width: 75%;
   }
 
-  #input::placeholder {  /**/
+  #input::placeholder {
+    /**/
     font-size: 18px;
   }
 
@@ -593,6 +594,11 @@ body {
   }
 
   .error {
+    font-size: 15px;
+    top: -30px;
+  }
+
+  #noResults {
     font-size: 15px;
     top: -30px;
   }
@@ -673,5 +679,11 @@ body {
 
   #input {
     width: 65%;
+  }
+  #noResults {
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    font-size: 15px;
   }
 }
