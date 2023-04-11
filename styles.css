@@ -528,6 +528,12 @@ body {
   box-shadow: var(--lm-shadow);
 }
 
+@media only screen and (max-width: 767px) {
+  #noResults {
+    font-size: 15px;
+    top: -8px;
+  }
+}
 /* tablet */
 @media screen and (min-width: 768px) {
   .container {
