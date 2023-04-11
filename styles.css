@@ -362,7 +362,7 @@ body {
   outline: none;
   background: none;
   color: var(--lm-text);
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 #input::placeholder {
@@ -535,7 +535,7 @@ body {
   }
   #input::placeholder {
     /**/
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 /* tablet */
